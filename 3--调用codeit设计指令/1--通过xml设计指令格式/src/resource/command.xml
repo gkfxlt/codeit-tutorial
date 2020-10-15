@@ -1,0 +1,16 @@
+<FuncRoot name="func_root"> 
+	 <BasisFuncPoolObject name="func_pool_object">
+            <Enable name="enable_plan">
+                <Command name="Enable">
+                    <GroupParam>
+                        <Param name="limit_time" default="5000"/>
+                        <UniqueParam default="load">
+                            <Param name="load" default="load0"/>
+                            <Param name="load_var" default="load0"/>
+                            <Param name="load_numeric" default="{0,0,0,0,0,0,0,0,0,0}"/>
+                        </UniqueParam>
+                    </GroupParam>
+                </Command>
+            </Enable>
+	</BasisFuncPoolObject>
+</FuncRoot>
