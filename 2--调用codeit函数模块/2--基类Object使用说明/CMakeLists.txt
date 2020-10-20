@@ -22,7 +22,7 @@ include_directories(${codeit_INCLUDE_DIRS})
 message(${codeit_DIR})
 
 # user program started...
-set(SOURCE_FILES src/main.cpp)
+set(SOURCE_FILES src/main.cpp src/basicsystem.hpp)
 add_executable(codeit-deploy ${SOURCE_FILES})
 if(UNIX)
 	target_link_libraries(codeit-deploy ${codeit_LIBRARIES} atomic)

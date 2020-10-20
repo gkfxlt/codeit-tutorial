@@ -82,5 +82,6 @@ namespace codeit::system
 
 		return std::move(nrtControllerPool);
 	}
+	auto updateStateRt(codeit::core::Msg& msg)->void {}
 	auto createDefaultData(codeit::model::Model& model)->void {}
 }

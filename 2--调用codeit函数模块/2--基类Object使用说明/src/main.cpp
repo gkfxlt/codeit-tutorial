@@ -1,8 +1,8 @@
 ﻿/// 本例子展示构造数据结构的过程:
 ///
 
-#include <codeit.hpp>
-using namespace codeit::core;
+#include "basicsystem.hpp"
+using namespace codeit::system;
 
 int main()
 {

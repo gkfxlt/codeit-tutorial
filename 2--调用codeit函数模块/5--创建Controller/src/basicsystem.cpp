@@ -8,5 +8,6 @@ namespace codeit::system
 		std::unique_ptr<codeit::controller::Controller> controller(new codeit::controller::EthercatController);
 		return controller;
 	}
+	auto updateStateRt(codeit::core::Msg& msg)->void {}
 	auto createDefaultData(codeit::model::Model& model)->void {}
 }

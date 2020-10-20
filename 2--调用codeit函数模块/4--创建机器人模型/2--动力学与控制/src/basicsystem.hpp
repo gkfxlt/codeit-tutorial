@@ -4,12 +4,12 @@
 
 using namespace codeit::function;
 using namespace codeit::model;
+using namespace codeit::core;
 
 namespace codeit::system
 {
-	auto createController()->std::unique_ptr<codeit::controller::Controller>;
-	
-	auto createUserDataType(core::Calculator& cal)->void;
+	auto updateStateRt(codeit::core::Msg& msg)->void;
+
 	auto createDefaultData(codeit::model::Model& model)->void;
 }
 #endif

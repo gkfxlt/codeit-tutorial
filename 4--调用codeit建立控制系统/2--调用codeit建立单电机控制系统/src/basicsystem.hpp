@@ -17,6 +17,7 @@ namespace codeit::system
 	////*********************************************************//////
 
 	auto createUserDataType(core::Calculator& cal)->void;
+	auto updateStateRt(codeit::core::Msg& msg)->void;
 	auto createDefaultData(codeit::model::Model& model)->void;
 }
 #endif

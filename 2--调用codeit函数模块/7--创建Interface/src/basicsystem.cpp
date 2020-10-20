@@ -26,5 +26,6 @@ namespace codeit::system
 		func_root->funcPool().add<codeit::function::Mode>();
 		return func_root;
 	}
+	auto updateStateRt(codeit::core::Msg& msg)->void {}
 	auto createDefaultData(codeit::model::Model& model)->void {}
 }

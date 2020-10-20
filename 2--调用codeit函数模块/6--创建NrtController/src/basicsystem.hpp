@@ -16,6 +16,7 @@ namespace codeit::system
 	auto createController()->std::unique_ptr<codeit::controller::Controller>;
 	auto createNrtControllerPool()->std::unique_ptr<core::ObjectPool<codeit::controller::NrtController>>;
 	auto createSocketController(const NumList* num = nullptr, std::string name = "socket_controller", std::string ip = "", std::string port = "", controller::SocketMaster::TYPE type = controller::SocketMaster::TYPE::TCP, Size pack_size = 0, Size nrt_id = 0)->std::unique_ptr<codeit::controller::NrtController>;
+	auto updateStateRt(codeit::core::Msg& msg)->void;
 	auto createDefaultData(codeit::model::Model& model)->void;
 }
 #endif
