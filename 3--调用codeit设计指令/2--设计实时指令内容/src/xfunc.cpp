@@ -65,7 +65,6 @@ namespace codeit::function {
 			"		<Param name=\"amp\" default=\"0.2\"/>"
 			"		<Param name=\"freq\" default=\"1\"/>"
 			"		<Param name=\"motion_id\" default=\"0\" abbreviation=\"m\"/>"
-			CHECK_PARAM_STRING
 			"	</GroupParam>"
 			"</Command>");
 	}

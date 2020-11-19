@@ -18,7 +18,8 @@ int main()
     cs.start();
 	
 	auto& sensor = cs.sensorPool()[0];
-	codeit::sensor::DemoData data;
+	codeit::sensor::DemoData data;//可以使用用户自定义的数据类型，但需要先
+	//在sensor_data.hpp内注册。
 	while (true) {
 		sensor.display<codeit::sensor::DemoData>(data);
 		std::this_thread::sleep_for(std::chrono::milliseconds(20));
